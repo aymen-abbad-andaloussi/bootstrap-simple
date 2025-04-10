@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./public/css/app.css">
+</head>
+
+<body>
+
+  <!-- start header  -->
+  <header>
+    <!-- fixed-top -->
+    <nav class="navbar ">
+      <div class="container-fluid">
+        <a class="navbar-brand text-light fs-1 fw-lighter" href="#">Simple</a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <i class="bi bi-list text-light fs-1"></i>
+        </button>
+        <div class="offcanvas offcanvas-end bg-black " tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active fs-5 text-white fw-bolder"  aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fs-5 text-white fw-bolder" aria-current="page" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fs-5 text-white fw-bolder" aria-current="page" href="#">Why Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fs-5 text-white fw-bolder" aria-current="page" href="#">Services</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle fs-5 text-white fw-bolder" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu bg-dark">
+                  <li><a class="dropdown-item fs-5 text-white fw-bolder" href="#">Dropdown 1</a></li>
+                  <li><a class="dropdown-item fs-5 text-white fw-bolder" href="#">Deep Dropdown</a></li>
+                  <li><a class="dropdown-item fs-5 text-white fw-bolder" href="#">Dropdown 2</a></li>
+                  <li><a class="dropdown-item fs-5 text-white fw-bolder" href="#">Dropdown 3</a></li>
+                  <li><a class="dropdown-item fs-5 text-white fw-bolder" href="#">Dropdown 4</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5 text-white fw-bolder" aria-current="page" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="header-content d-flex flex-column justify-content-center align-items-center">
+      <h1 class="fs-1 text-black fw-lighter">Welcome to Siimple</h1>
+      <p class="text-black fs-4 text-center">We are team of talented designers making websites with Bootstrap</p>
+      <a type="button" class="btn oronge text-white" href="#aboutUs">Get Started</a>
+    </div>
+  </header>
+  <!-- end header  -->
+
+  <!-- start main  -->
+   <main class="d-flex flex-column row-gap-lg-5">
+
+    <!-- start section About Us -->
+    <section id="aboutUs" class="container-fluid d-flex flex-column align-items-center gap-5 mt-5 mb-5 ">
+      <div class="div-section-titel-aboutUs d-flex flex-column gap-3 align-items-center">
+        <h2 class="h1-div-section-titel-aboutUs">About Us</h2>
+        <p class="p-div-section-titel-aboutUs text-center">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div>
+        <div class="div-section-content-aboutUs d-flex justify-content-center gap-4">
+          <div class="div-section-content-aboutUs-img">
+            <img src="./public/images/about.jpg" alt="...">
+          </div>
+          <div class="div-section-content-aboutUs-paragraph">
+            <div class="div-section-content-aboutUs-first-para">
+              <h2>Voluptatem dignissimos provident</h2>
+              <p class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+              <div class="div-section-content-aboutUs-list">
+                <div class="dv-i d-flex"><i class="bi bi-check2-all"></i><p>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
+                <div class="dv-i d-flex"><i class="bi bi-check2-all"></i><p>Duis aute irure dolor in reprehenderit in voluptate velit.</p></div>
+                <div class="dv-i d-flex"><i class="bi bi-check2-all"></i><p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</p></div>
+              </div>
+              <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+          </div>
+        </div>
+    </section>
+    <!-- end section About Us -->
+    
+
+    <!-- start section Why Us -->
+    <section id="whyUs" class="px-3 flex-column align-items-center my-2">
+      <div class="div-section-titel-aboutUs d-flex flex-column align-items-center mb-5">
+        <h2 class="h1-div-section-titel-aboutUs">Why Us</h2>
+        <p class="p-div-section-titel-aboutUs text-center">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div>
+      <div class="flex-wrap d-flex justify-content-center column-gap-5 px-xxl-5">
+        
+          <div class="col-md-3 parent-icon shadow d-flex flex-column row-gap-xxl-5">
+            <img src="./public/images/why-us-1.jpg" class="card-img-top" alt="...">
+            <i class="bi bi-segmented-nav icon-card"></i>
+            <div class="card-bo d-flex flex-column row-gap-3 mt-3 mb-5">
+              <h5 class="card-title text-center fw-bold fs-4">Our Mission</h5>
+              <p class="card-text px-5">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        
+        <div class="col-md-3 parent-icon shadow d-flex flex-column row-gap-xxl-5">
+          <img src="./public/images/why-us-2.jpg" class="card-img-top" alt="...">
+          <i class="bi bi-brightness-high icon-card"></i>
+          <div class="card-body d-flex flex-column row-gap-3 mt-3 mb-5">
+            <h5 class="card-title text-center fw-bold fs-4">Our Plan</h5>
+            <p class="card-text px-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+
+        <div class="col-md-3 parent-icon shadow d-flex flex-column row-gap-xxl-5">
+          <img src="./public/images/why-us-3.jpg" class="card-img-top" alt="...">
+          <i class="bi bi-calendar4-week icon-card"></i>
+          <div class="card-body d-flex flex-column row-gap-3 mt-3 mb-5">
+            <h5 class="card-title text-center fw-bold fs-4">Our Vision</h5>
+            <p class="card-text px-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+          </div>
+      </div>
+     </section>
+    <!-- end section Why Us -->
+
+    <!-- start section services -->
+    <section id="bg-color-grey" class="px-3 d-flex flex-column align-items-center gap-5 py-5">
+      <div class="div-section-titel-aboutUs d-flex flex-column gap-3 align-items-center">
+        <h2 class="h1-div-section-titel-aboutUs">Services</h2>
+        <p class="p-div-section-titel-aboutUs text-center">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div>
+      <div class="col-md-12 flex-wrap d-flex justify-content-center gap-5 px-xxl-5">
+        
+        <div class="shadow-lg col-md-3 rounded-4 d-flex flex-column">
+          <div class="card-body d-flex flex-column row-gap-3 p-5">
+            <i class="bi bi-segmented-nav serv-icon-card"></i>
+            <h5 class="card-title fw-bold fs-4">Our Mission</h5>
+            <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+          </div>
+        
+        <div class="shadow-lg col-md-3 rounded-4 d-flex flex-column">
+          <div class="card-body d-flex flex-column row-gap-3 p-5">
+            <i class="bi bi-brightness-high serv-icon-card"></i>
+            <h5 class="card-title fw-bold fs-4">Our Plan</h5>
+            <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+          </div>
+
+        <div class="shadow-lg col-md-3 rounded-4 d-flex flex-column">
+          <div class="card-body d-flex flex-column row-gap-3 p-5">
+            <i class="bi bi-calendar4-week serv-icon-card"></i>
+            <h5 class="card-title fw-bold fs-4">Our Vision</h5>
+            <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+
+        <div class="shadow-lg col-md-3 rounded-4 d-flex flex-column">
+          <div class="card-body d-flex flex-column row-gap-3 p-5">
+            <i class="bi bi-segmented-nav serv-icon-card"></i>
+            <h5 class="card-title fw-bold fs-4">Our Mission</h5>
+            <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+        
+        <div class="shadow-lg col-md-3 rounded-4 d-flex flex-column">
+          <div class="card-body d-flex flex-column row-gap-3 p-5">
+            <i class="bi bi-brightness-high serv-icon-card"></i>
+            <h5 class="card-title fw-bold fs-4">Our Plan</h5>
+            <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+        
+        <div class="shadow-lg col-md-3 rounded-4 d-flex flex-column">
+          <div class="card-body d-flex flex-column row-gap-3 p-5">
+            <i class="bi bi-calendar4-week serv-icon-card"></i>
+            <h5 class="card-title fw-bold fs-4">Our Vision</h5>
+            <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+        
+      </div> 
+      </section>
+    <!-- end section services -->
+
+      <!-- start section Contact Us -->
+       <section id="contactUs" class="container d-flex flex-column row-gap-5 pb-5">
+        <div class="div-section-titel-aboutUs d-flex flex-column gap-3 align-items-center">
+          <h2 class="h1-div-section-titel-aboutUs">Contact Us</h2>
+          <p class="p-div-section-titel-aboutUs text-center">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        </div>
+        <div class="row col-md-12">
+          
+          <div class="card-body d-flex flex-column align-items-center border-end col-md-4 row-gap-3 pt-3">
+            <i class="bi bi-geo-alt contact-icon-card"></i>
+            <h5 class="card-title fw-bold fs-4">Adress</h5>
+            <p class="card-text text-center">A108 Adam Street, New York, NY 535022</p>
+          </div>
+
+          <div class="card-body d-flex flex-column align-items-center border-end col-md-4 row-gap-3 pt-3">
+            <i class="bi bi-telephone contact-icon-card"></i>
+            <h5 class="card-title fw-bold fs-4">Call Us</h5>
+            <p class="card-text ">+1 5589 55488 55</p>
+          </div>
+
+          <div class="card-body d-flex flex-column align-items-center col-md-4 row-gap-3 pt-3">
+            <i class="bi bi-envelope contact-icon-card"></i>
+            <h5 class="card-title fw-bold fs-4">Email Us</h5>
+            <p class="card-text ">info@example.com</p>
+          </div>
+        </div>
+
+        <div class="shadow p-4 container-fluid">
+          <form>
+            <div class="mb-3 d-flex column-gap-3">
+              <input type="text" class="form-control rounded-0" placeholder="Your Name" aria-describedby="emailHelp">
+              <input type="email" class="form-control rounded-0" placeholder="Your Email" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <input type="text" class="form-control rounded-0" placeholder="Subject">
+            </div>
+            <div class="mb-3">
+              <textarea name="" id="" class="form-control rounded-0" placeholder="Message" ></textarea>
+            </div>
+            <div class="d-flex justify-content-center ">
+              <div>
+                <div class="d-flex justify-content-center bi"></div>
+                <button type="submit" onclick="alert('makhedamach hh')" class="btn-contact w-100 px-5">Send Message</button>
+              </div>
+            </div>
+          </form>
+        </div>
+
+       </section>
+      <!-- end section Contact Us -->
+
+
+   </main>
+  <!-- end main -->
+
+  <!-- start footer  -->
+   <footer>
+    <div class="container d-flex flex-column align-items-center row-gap-2 py-4">
+      <div class="div-section-titel-aboutUs d-flex flex-column gap-1 align-items-center">
+        <h2 class="h1-div-section-titel-aboutUs">Simple</h2>
+        <p class="p-div-section-titel-aboutUs fst-italic text-center">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div>
+      <div class="footer-icons d-flex justify-content-center column-gap-2 border-bottom w-100 pb-5">
+        <a href="#"><i class="bi bi-twitter-x"></i></a>
+        <a href="#"><i class="bi bi-facebook"></i></a>
+        <a href="#"><i class="bi bi-instagram"></i></a>
+        <a href="#"><i class="bi bi-skype"></i></a>
+        <a href="#"><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="footer-copy">
+        <p class="text-center">Copyright <span class="fw-bold">Siimple</span> All Rights Reserved 
+          Designed by <span class="copy-bootstrap">BootstrapMade</span></p>
+      </div>
+    </div>
+   </footer>
+  <!-- end footer -->
+
+  <!-- script  -->
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  <!-- script  -->
+</body>
+
+</html>
